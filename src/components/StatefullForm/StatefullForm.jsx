@@ -34,7 +34,7 @@ const StatefullForm = () => {
     return (
         <div>
              <form onSubmit={handleSubmit}>
-                <input value={name} 
+                <input value={name}
                 onChange={handleNameChange}
                 type="text" name="name" />
                 <br />
